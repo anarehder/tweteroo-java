@@ -19,6 +19,6 @@ public class UserController {
 
     @PostMapping
     public void create(@RequestBody UserDTO req) {
-        System.out.println(req.avatar());
+        System.out.println("oi2");
     }
 }
